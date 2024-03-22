@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /* border:  1px solid red; */
+}
+header{
+    top: 0;
+    z-index: 1000;
+}
+.navbar{
+    background-color: #222222 !important;
+}
+.logoImg{
+    width: 110px;
+}
+button .navbar-toggler{
+    color: #ffffff !important;
+}
+.nav-item a{
+    color: #DADADA;
+}
+.nav-link{
+    color: #DADADA !important;
+} 
+.nav-link.active{
+    color: yellow !important;
+}
+.trailBtn{
+    background-color: transparent;
+    border: 1px solid #0485A6;
+    color: #0485A6
+}
+.trailLink{
+    color: #0485A6;
+}
+.trailBtn:hover .trailLink{
+    background-color: #0485A6;
+    color: #DADADA;
+}
+.inquire{
+    color: #DADADA;
+}
+.inquire p{
+    color: #0485A6;
+}
+/* Hero Section */
+.heroSection{
+    background-image: url(./image/genius-coder-programme.jpg);
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size:cover;
+    color: #ffffff;
+    width: 100%;
+    padding: 130px 0;
+}
+.heroSection h1{
+    border-left: 4px solid #0485A6;
+}
+.heroSection p{
+    font-weight: lighter;
+}
+.geniusCoder{
+    width: 450px;
+}
+.signUpFreeTrailBtn{
+    background-color: transparent;
+}
+.signUpFreeTrailBtn a{
+    color: #0485A6;
+}
+.signUpFreeTrailBtn:hover{
+    background-color: #0485A6;
+}
+
+.signUpFreeTrailBtn:hover a{
+    color: #DADADA;
+}
+/* -------------------------------------------------------- */
+
+/* ------------LOCATION SERVICE ----------------------------*/
+
+.rBox{
+    color: #525F7F;
+}
+.rBox a{
+    color: #525F7F;
+}
+.leftBox{
+    color: #525F7F;
+}
+/*-------------------------------------------------- */
+/* ---------------------Learn Coding--------------------- */
+.learnCoding h2{
+    color: #32325D;
+}
+.learnCodingPtag{
+    color: #525F7F;
+}
+
+.titleI{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #80CADC;
+}
+.titleI i{
+    font-size: 30px;
+    color: #DADADA;
+}
+.sk-i{
+    height: 35px;
+    width: 35px;
+    /* padding: 5px; */
+    border-radius: 50%;
+    background-color: #80CADC;
+}
+.sk-i i{
+    color: #DADADA;
+}
+.firstCard{
+    background-color: #0094B9 !important;
+}
+.secCard{
+    background-color: #EEB834 !important;
+}
+.thirdCard{
+    background-color: #000000 !important;
+}
+.firstCard p{
+    color: #DADADA;
+}
+.secCard p{
+    color: #DADADA;
+}
+.thirdCard p{
+    color: #DADADA;
+}
+
+/* achive section */
+.achiveSection{
+    background-image: url(./image/why-choose-roboto-coding-academy.jpg);
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size:cover;
+    color: #ffffff;
+    width: 100%;
+}
+.achive-P-one{
+    margin: 0 0 120px;
+}
+.achiveSection h2{
+    color: #DADADA;
+}
+.achivePtagOne{
+    color: #EEB834;
+}
+
+/* Coding Journey */
+.codingJourney p{
+    color: #172B4D;
+}
+/* ------------code life----------- */
+.codeLife-p-1{
+    color: #EEB834;
+}
+/* --------------Code Life------------------ */
+.codeLife{
+    background-color: #172B4D;
+    color: #DADADA;
+}
+.card:hover{
+    transform: scale(1.080);
+    transition: 2s;
+}
+.cardData{
+    color: #172B4D;
+}
+.cardData i{
+    font-size: 25px;
+}
+.cardData p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.roadMap p{
+    color: #172B4D;
+}
+/* footer */
+footer{
+    background-color: #222222;
+}
+footer img{
+    width: 200px;
+}
+footer p{
+    color: #525F7F;
+    font-weight: lighter;
+}
+.footer-1 i{
+    color: #525F7F;
+}
+.footerInfo a{
+    color: #525F7F;
+}
+.footerInfo li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.media-1{
+    height: 60px;
+    width: 60px;
+    background-color: #3B5998;
+    border-radius: 50%;
+}
+.media-1 i{
+    font-size: 25px;
+    color: #DADADA;
+}
+.media-2{
+    height: 60px;
+    width: 60px;
+    background-color: #C4302B;
+    border-radius: 50%;
+}
+.media-2 i{
+    font-size: 25px;
+    color: #DADADA;
+}
+.whatsapp{
+    height: 60px;
+    width: 60px;
+    background-color: #54DAA180;
+    border-radius: 50%;
+}
+.whatsapp i{
+    font-size: 25px;
+    color: #ffffff;
+}
+.media-3 a{
+    padding:10px;
+    border: 2px solid #54DAA180;
+    color: #54DAA180;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.media-3 a:hover{
+    background-color:  #54DAA180;
+    color: #ffffff;
+}
+
+
+@media(max-width:1010px){
+   header .navbar-nav{
+    gap: 0 !important;
+   }
+}
+@media (max-width:576px)  {
+    .achive-P-one{
+        margin: 20px 0 20px;
+    }
+    .cRight-1{
+        display: flex;
+        justify-content: center;
+    }
+}
